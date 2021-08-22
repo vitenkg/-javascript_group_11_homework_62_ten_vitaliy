@@ -1,7 +1,7 @@
 import './App.css';
-import Home from "./Component/Counteiner/Home/Home";
-import AboutUs from "./Component/Counteiner/AboutUs/AboutUs";
-import Contact from "./Component/Counteiner/Contact/Contact";
+import Home from "./Counteiner/Home/Home";
+import AboutUs from "./Counteiner/AboutUs/AboutUs";
+import Contact from "./Counteiner/Contact/Contact";
 import {BrowserRouter, NavLink, Route, Switch} from "react-router-dom";
 
 const App = () => (
