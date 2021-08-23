@@ -34,7 +34,7 @@ const DisplayInfo = props => {
             <p>Насаление {props.CountryInfo.population} чел</p>
             {borders && (<ul>{borders.length > 0 ? 'Граничит с:' : null}{borders.map(border => {
                 let i = 0;
-                return (<li key={i++}><p>{border}</p></li>
+                return (<li key={i++} className="List"><p>{border}</p></li>
             )})}</ul>)}
         </div>
     );

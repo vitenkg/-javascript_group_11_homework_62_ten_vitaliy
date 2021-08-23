@@ -3,7 +3,7 @@ import axios from "axios";
 import {BASE_URL_GET_ALL, COUNTRY_URL} from "../../config";
 import DisplayCountry from "../../Component/DisplayCountry/DisplayCountry";
 import DisplayInfo from "../../Component/DisplayInfo/DisplayInfo";
-import './AboutUs.css';
+import './Country.css';
 
 const Country = () => {
     const [countries, setCountries] = useState(null);
